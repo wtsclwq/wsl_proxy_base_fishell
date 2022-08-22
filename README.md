@@ -4,7 +4,7 @@
 
 fish 语法请参考：[deepin wiki](https://gitee.com/deepinwiki/wiki/blob/master/fish%20%E8%84%9A%E6%9C%AC%E7%BC%96%E7%A8%8B.md)
 
-````sh
+````bash
 set -xg HOST_IP  (grep nameserver /etc/resolv.conf | awk { print \$2 })
 set -xg WSL_IP (hostname -I | awk '{print $1}')
 set -xg PROXY_PORT 7890
