@@ -1,4 +1,4 @@
-参考网友[未来遗迹](https://www.ruin-of-future.online/0xa8/wsl2-%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86ssh-git-%E5%8F%AF%E7%94%A8/)的bash版本，改编了一下
+参考网友[未来遗迹](https://www.ruin-of-future.online/0xa8/wsl2-%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86ssh-git-%E5%8F%AF%E7%94%A8/)以及[ZingLix](https://zinglix.xyz/2020/04/18/wsl2-setting/)的bash版本，改编了一下
 
 取得 host ip： `grep nameserver /etc/resolv.conf | awk { print \$2 }`
 
